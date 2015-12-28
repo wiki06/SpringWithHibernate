@@ -7,10 +7,10 @@
 
 	<!-- Enable Mail Properties -->
 	<bean class="org.springframework.mail.javamail.JavaMailSenderImpl">
-		<property name="host" value="smtp.talentex.in" />
+		<property name="host" value="smtp.******.in" />
 		<property name="port" value="25" />
-		<property name="username" value="TalentEx-Jobs@talentex.in" />
-		<property name="password" value="Job$Info@123" />
+		<property name="username" value="TalentEx-Jobs@***********.in" />
+		<property name="password" value="********" />
 		<property name="javaMailProperties">
 			<props>
 				<prop key="mail.smtp.auth">true</prop>
